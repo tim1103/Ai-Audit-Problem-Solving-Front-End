@@ -1,0 +1,46 @@
+<!--
+Build with MDUI
+Under GPL3.0 license
+https://github.com/tim1103/Ai-Audit-Problem-Solving-Front-End/
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>AI智能审核题解 - Demo</title>
+	</head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.0/dist/css/mdui.min.css"/>
+	<script src="https://cdn.jsdelivr.net/npm/mdui@1.0.0/dist/js/mdui.min.js"></script>
+	
+	<div class="mdui-appbar" class="mdui-appbar-fixed">
+	  <div class="mdui-toolbar mdui-color-theme">
+	    <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
+	    <a href="javascript:;" class="mdui-typo-headline">AI智能审核题解 - Demo</a>
+	    <div class="mdui-toolbar-spacer"></div>
+	    <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">code</i></a>
+	  </div>
+	</div>
+	<div style="padding: 20px 30px 15px 30px;">
+		<label class="mdui-textfield-label" >题目编号</label>
+		<input class="mdui-textfield-input"/>
+	</div>
+	
+	<!-- 浮动标签 -->
+	<div class="mdui-textfield mdui-textfield-floating-label" style="padding: 15px 30px 15px 30px;">
+	  <label class="mdui-textfield-label">请在此黏贴题解源代码</label>
+	  <textarea class="mdui-textfield-input"></textarea>
+	</div>
+<div style="padding: 15px 30px 15px 30px;">
+	
+	<div style="float: right;">
+		<button class="mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent" onclick="clickd()">提交题解</button>
+	</div>
+</div>
+<script>
+	function clickd(){
+		mdui.snackbar({
+		  message: '暂未开放,敬请期待'
+		});
+	}
+</script>
+</html>
